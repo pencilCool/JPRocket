@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let appearance =  UINavigationBar.appearance()
         appearance.barTintColor = UIColor.jpTintColor()
+        appearance.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.jpNavTitleColor()];
         return true
     }
 
