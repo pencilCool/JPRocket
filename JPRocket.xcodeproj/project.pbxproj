@@ -14,6 +14,9 @@
 		ECDDB28C1E8BA90E00BEEF0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDDB28A1E8BA90E00BEEF0F /* LaunchScreen.storyboard */; };
 		ECDDB2971E8BA90E00BEEF0F /* JPRocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDB2961E8BA90E00BEEF0F /* JPRocketTests.swift */; };
 		ECDDB2A21E8BA90E00BEEF0F /* JPRocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDB2A11E8BA90E00BEEF0F /* JPRocketUITests.swift */; };
+		ECDDB2B11E8BB87E00BEEF0F /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDB2B01E8BB87E00BEEF0F /* MainCell.swift */; };
+		ECDDB2B41E8BC5B300BEEF0F /* JPConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDB2B31E8BC5B300BEEF0F /* JPConfig.swift */; };
+		ECDDB2B71E8BF2F200BEEF0F /* UIColor+JP.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDB2B61E8BF2F200BEEF0F /* UIColor+JP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		ECDDB29D1E8BA90E00BEEF0F /* JPRocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPRocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDDB2A11E8BA90E00BEEF0F /* JPRocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPRocketUITests.swift; sourceTree = "<group>"; };
 		ECDDB2A31E8BA90E00BEEF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDDB2B01E8BB87E00BEEF0F /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		ECDDB2B31E8BC5B300BEEF0F /* JPConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPConfig.swift; sourceTree = "<group>"; };
+		ECDDB2B61E8BF2F200BEEF0F /* UIColor+JP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+JP.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				ECDDB2811E8BA90E00BEEF0F /* AppDelegate.swift */,
-				ECDDB2831E8BA90E00BEEF0F /* MainViewController.swift */,
-				ECDDB2851E8BA90E00BEEF0F /* Main.storyboard */,
+				ECDDB2B51E8BF2B000BEEF0F /* Extension */,
+				ECDDB2B21E8BC54700BEEF0F /* Configure */,
+				ECDDB2AF1E8BB83A00BEEF0F /* MainPage */,
 				ECDDB2881E8BA90E00BEEF0F /* Assets.xcassets */,
 				ECDDB28A1E8BA90E00BEEF0F /* LaunchScreen.storyboard */,
 				ECDDB28D1E8BA90E00BEEF0F /* Info.plist */,
@@ -123,6 +130,32 @@
 				ECDDB2A31E8BA90E00BEEF0F /* Info.plist */,
 			);
 			path = JPRocketUITests;
+			sourceTree = "<group>";
+		};
+		ECDDB2AF1E8BB83A00BEEF0F /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDB2851E8BA90E00BEEF0F /* Main.storyboard */,
+				ECDDB2831E8BA90E00BEEF0F /* MainViewController.swift */,
+				ECDDB2B01E8BB87E00BEEF0F /* MainCell.swift */,
+			);
+			name = MainPage;
+			sourceTree = "<group>";
+		};
+		ECDDB2B21E8BC54700BEEF0F /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDB2B31E8BC5B300BEEF0F /* JPConfig.swift */,
+			);
+			name = Configure;
+			sourceTree = "<group>";
+		};
+		ECDDB2B51E8BF2B000BEEF0F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDB2B61E8BF2F200BEEF0F /* UIColor+JP.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECDDB2B41E8BC5B300BEEF0F /* JPConfig.swift in Sources */,
 				ECDDB2841E8BA90E00BEEF0F /* MainViewController.swift in Sources */,
+				ECDDB2B71E8BF2F200BEEF0F /* UIColor+JP.swift in Sources */,
 				ECDDB2821E8BA90E00BEEF0F /* AppDelegate.swift in Sources */,
+				ECDDB2B11E8BB87E00BEEF0F /* MainCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
