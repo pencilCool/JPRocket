@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECDDB2821E8BA90E00BEEF0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDB2811E8BA90E00BEEF0F /* AppDelegate.swift */; };
+		ECDDB2841E8BA90E00BEEF0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDB2831E8BA90E00BEEF0F /* ViewController.swift */; };
+		ECDDB2871E8BA90E00BEEF0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDDB2851E8BA90E00BEEF0F /* Main.storyboard */; };
+		ECDDB2891E8BA90E00BEEF0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDDB2881E8BA90E00BEEF0F /* Assets.xcassets */; };
+		ECDDB28C1E8BA90E00BEEF0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDDB28A1E8BA90E00BEEF0F /* LaunchScreen.storyboard */; };
+		ECDDB2971E8BA90E00BEEF0F /* JPRocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDB2961E8BA90E00BEEF0F /* JPRocketTests.swift */; };
+		ECDDB2A21E8BA90E00BEEF0F /* JPRocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDB2A11E8BA90E00BEEF0F /* JPRocketUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECDDB2931E8BA90E00BEEF0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECDDB2761E8BA90E00BEEF0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECDDB27D1E8BA90E00BEEF0F;
+			remoteInfo = JPRocket;
+		};
+		ECDDB29E1E8BA90E00BEEF0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECDDB2761E8BA90E00BEEF0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECDDB27D1E8BA90E00BEEF0F;
+			remoteInfo = JPRocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECDDB27E1E8BA90E00BEEF0F /* JPRocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPRocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDDB2811E8BA90E00BEEF0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECDDB2831E8BA90E00BEEF0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECDDB2861E8BA90E00BEEF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECDDB2881E8BA90E00BEEF0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECDDB28B1E8BA90E00BEEF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECDDB28D1E8BA90E00BEEF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDDB2921E8BA90E00BEEF0F /* JPRocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPRocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDDB2961E8BA90E00BEEF0F /* JPRocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPRocketTests.swift; sourceTree = "<group>"; };
+		ECDDB2981E8BA90E00BEEF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDDB29D1E8BA90E00BEEF0F /* JPRocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPRocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDDB2A11E8BA90E00BEEF0F /* JPRocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPRocketUITests.swift; sourceTree = "<group>"; };
+		ECDDB2A31E8BA90E00BEEF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECDDB27B1E8BA90E00BEEF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDB28F1E8BA90E00BEEF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDB29A1E8BA90E00BEEF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECDDB2751E8BA90E00BEEF0F = {
+			isa = PBXGroup;
+			children = (
+				ECDDB2801E8BA90E00BEEF0F /* JPRocket */,
+				ECDDB2951E8BA90E00BEEF0F /* JPRocketTests */,
+				ECDDB2A01E8BA90E00BEEF0F /* JPRocketUITests */,
+				ECDDB27F1E8BA90E00BEEF0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECDDB27F1E8BA90E00BEEF0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDB27E1E8BA90E00BEEF0F /* JPRocket.app */,
+				ECDDB2921E8BA90E00BEEF0F /* JPRocketTests.xctest */,
+				ECDDB29D1E8BA90E00BEEF0F /* JPRocketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECDDB2801E8BA90E00BEEF0F /* JPRocket */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDB2811E8BA90E00BEEF0F /* AppDelegate.swift */,
+				ECDDB2831E8BA90E00BEEF0F /* ViewController.swift */,
+				ECDDB2851E8BA90E00BEEF0F /* Main.storyboard */,
+				ECDDB2881E8BA90E00BEEF0F /* Assets.xcassets */,
+				ECDDB28A1E8BA90E00BEEF0F /* LaunchScreen.storyboard */,
+				ECDDB28D1E8BA90E00BEEF0F /* Info.plist */,
+			);
+			path = JPRocket;
+			sourceTree = "<group>";
+		};
+		ECDDB2951E8BA90E00BEEF0F /* JPRocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDB2961E8BA90E00BEEF0F /* JPRocketTests.swift */,
+				ECDDB2981E8BA90E00BEEF0F /* Info.plist */,
+			);
+			path = JPRocketTests;
+			sourceTree = "<group>";
+		};
+		ECDDB2A01E8BA90E00BEEF0F /* JPRocketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDB2A11E8BA90E00BEEF0F /* JPRocketUITests.swift */,
+				ECDDB2A31E8BA90E00BEEF0F /* Info.plist */,
+			);
+			path = JPRocketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECDDB27D1E8BA90E00BEEF0F /* JPRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDDB2A61E8BA90E00BEEF0F /* Build configuration list for PBXNativeTarget "JPRocket" */;
+			buildPhases = (
+				ECDDB27A1E8BA90E00BEEF0F /* Sources */,
+				ECDDB27B1E8BA90E00BEEF0F /* Frameworks */,
+				ECDDB27C1E8BA90E00BEEF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPRocket;
+			productName = JPRocket;
+			productReference = ECDDB27E1E8BA90E00BEEF0F /* JPRocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECDDB2911E8BA90E00BEEF0F /* JPRocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDDB2A91E8BA90E00BEEF0F /* Build configuration list for PBXNativeTarget "JPRocketTests" */;
+			buildPhases = (
+				ECDDB28E1E8BA90E00BEEF0F /* Sources */,
+				ECDDB28F1E8BA90E00BEEF0F /* Frameworks */,
+				ECDDB2901E8BA90E00BEEF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECDDB2941E8BA90E00BEEF0F /* PBXTargetDependency */,
+			);
+			name = JPRocketTests;
+			productName = JPRocketTests;
+			productReference = ECDDB2921E8BA90E00BEEF0F /* JPRocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECDDB29C1E8BA90E00BEEF0F /* JPRocketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDDB2AC1E8BA90E00BEEF0F /* Build configuration list for PBXNativeTarget "JPRocketUITests" */;
+			buildPhases = (
+				ECDDB2991E8BA90E00BEEF0F /* Sources */,
+				ECDDB29A1E8BA90E00BEEF0F /* Frameworks */,
+				ECDDB29B1E8BA90E00BEEF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECDDB29F1E8BA90E00BEEF0F /* PBXTargetDependency */,
+			);
+			name = JPRocketUITests;
+			productName = JPRocketUITests;
+			productReference = ECDDB29D1E8BA90E00BEEF0F /* JPRocketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECDDB2761E8BA90E00BEEF0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tangyuhua;
+				TargetAttributes = {
+					ECDDB27D1E8BA90E00BEEF0F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4BADWEEE97;
+						ProvisioningStyle = Automatic;
+					};
+					ECDDB2911E8BA90E00BEEF0F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4BADWEEE97;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECDDB27D1E8BA90E00BEEF0F;
+					};
+					ECDDB29C1E8BA90E00BEEF0F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4BADWEEE97;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECDDB27D1E8BA90E00BEEF0F;
+					};
+				};
+			};
+			buildConfigurationList = ECDDB2791E8BA90E00BEEF0F /* Build configuration list for PBXProject "JPRocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECDDB2751E8BA90E00BEEF0F;
+			productRefGroup = ECDDB27F1E8BA90E00BEEF0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECDDB27D1E8BA90E00BEEF0F /* JPRocket */,
+				ECDDB2911E8BA90E00BEEF0F /* JPRocketTests */,
+				ECDDB29C1E8BA90E00BEEF0F /* JPRocketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECDDB27C1E8BA90E00BEEF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDDB28C1E8BA90E00BEEF0F /* LaunchScreen.storyboard in Resources */,
+				ECDDB2891E8BA90E00BEEF0F /* Assets.xcassets in Resources */,
+				ECDDB2871E8BA90E00BEEF0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDB2901E8BA90E00BEEF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDB29B1E8BA90E00BEEF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECDDB27A1E8BA90E00BEEF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDDB2841E8BA90E00BEEF0F /* ViewController.swift in Sources */,
+				ECDDB2821E8BA90E00BEEF0F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDB28E1E8BA90E00BEEF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDDB2971E8BA90E00BEEF0F /* JPRocketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDB2991E8BA90E00BEEF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDDB2A21E8BA90E00BEEF0F /* JPRocketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECDDB2941E8BA90E00BEEF0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECDDB27D1E8BA90E00BEEF0F /* JPRocket */;
+			targetProxy = ECDDB2931E8BA90E00BEEF0F /* PBXContainerItemProxy */;
+		};
+		ECDDB29F1E8BA90E00BEEF0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECDDB27D1E8BA90E00BEEF0F /* JPRocket */;
+			targetProxy = ECDDB29E1E8BA90E00BEEF0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECDDB2851E8BA90E00BEEF0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDDB2861E8BA90E00BEEF0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECDDB28A1E8BA90E00BEEF0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDDB28B1E8BA90E00BEEF0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECDDB2A41E8BA90E00BEEF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECDDB2A51E8BA90E00BEEF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECDDB2A71E8BA90E00BEEF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BADWEEE97;
+				INFOPLIST_FILE = JPRocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangyuhua.com.JPRocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ECDDB2A81E8BA90E00BEEF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BADWEEE97;
+				INFOPLIST_FILE = JPRocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangyuhua.com.JPRocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ECDDB2AA1E8BA90E00BEEF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4BADWEEE97;
+				INFOPLIST_FILE = JPRocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangyuhua.com.JPRocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPRocket.app/JPRocket";
+			};
+			name = Debug;
+		};
+		ECDDB2AB1E8BA90E00BEEF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4BADWEEE97;
+				INFOPLIST_FILE = JPRocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangyuhua.com.JPRocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPRocket.app/JPRocket";
+			};
+			name = Release;
+		};
+		ECDDB2AD1E8BA90E00BEEF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4BADWEEE97;
+				INFOPLIST_FILE = JPRocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangyuhua.com.JPRocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JPRocket;
+			};
+			name = Debug;
+		};
+		ECDDB2AE1E8BA90E00BEEF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4BADWEEE97;
+				INFOPLIST_FILE = JPRocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangyuhua.com.JPRocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JPRocket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECDDB2791E8BA90E00BEEF0F /* Build configuration list for PBXProject "JPRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDDB2A41E8BA90E00BEEF0F /* Debug */,
+				ECDDB2A51E8BA90E00BEEF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDDB2A61E8BA90E00BEEF0F /* Build configuration list for PBXNativeTarget "JPRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDDB2A71E8BA90E00BEEF0F /* Debug */,
+				ECDDB2A81E8BA90E00BEEF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECDDB2A91E8BA90E00BEEF0F /* Build configuration list for PBXNativeTarget "JPRocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDDB2AA1E8BA90E00BEEF0F /* Debug */,
+				ECDDB2AB1E8BA90E00BEEF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECDDB2AC1E8BA90E00BEEF0F /* Build configuration list for PBXNativeTarget "JPRocketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDDB2AD1E8BA90E00BEEF0F /* Debug */,
+				ECDDB2AE1E8BA90E00BEEF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECDDB2761E8BA90E00BEEF0F /* Project object */;
+}
