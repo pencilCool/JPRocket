@@ -69,6 +69,7 @@
                                             <outlet property="intro" destination="Gmx-nY-Dyq" id="O3X-wt-NGe"/>
                                             <outlet property="serialNumber" destination="e5V-bK-kvy" id="m7v-6D-mWL"/>
                                             <outlet property="title" destination="8FK-K5-Wyr" id="rxa-Hf-uux"/>
+                                            <segue destination="olf-Si-Vwc" kind="show" id="Lin-CF-3Wv"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -96,6 +97,14 @@
                 </viewController>
             </objects>
             <point key="canvasLocation" x="2784.8000000000002" y="-912.5937031484259"/>
+        </scene>
+        <!--Content-->
+        <scene sceneID="3QT-Zz-Fdb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Content" id="olf-Si-Vwc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lUb-7L-owf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3491" y="-928"/>
         </scene>
     </scenes>
 </document>

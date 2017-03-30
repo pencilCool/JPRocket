@@ -21,6 +21,12 @@
 		ECDDB2C51E8BFCCF00BEEF0F /* EachLevel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDDB2C31E8BFCCF00BEEF0F /* EachLevel.storyboard */; };
 		ECDDB2C71E8BFE4E00BEEF0F /* EachLevelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDB2C61E8BFE4E00BEEF0F /* EachLevelCell.swift */; };
 		ECDDB2C91E8C026300BEEF0F /* EachLevelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDB2C81E8C026300BEEF0F /* EachLevelItem.swift */; };
+		ECDDB2CD1E8C90A000BEEF0F /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDDB2CB1E8C90A000BEEF0F /* Content.storyboard */; };
+		ECDDB2CF1E8C90CC00BEEF0F /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDB2CE1E8C90CC00BEEF0F /* ContentViewController.swift */; };
+		ECDDB2D21E8C937B00BEEF0F /* example.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDDB2D01E8C937B00BEEF0F /* example.storyboard */; };
+		ECDDB2D41E8C93BD00BEEF0F /* Vocabulary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDDB2D31E8C93BD00BEEF0F /* Vocabulary.storyboard */; };
+		ECDDB2D71E8C940800BEEF0F /* Text.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDDB2D51E8C940800BEEF0F /* Text.storyboard */; };
+		ECDDB2D91E8C943400BEEF0F /* practice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDDB2D81E8C943400BEEF0F /* practice.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,12 @@
 		ECDDB2C41E8BFCCF00BEEF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/EachLevel.storyboard; sourceTree = "<group>"; };
 		ECDDB2C61E8BFE4E00BEEF0F /* EachLevelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EachLevelCell.swift; sourceTree = "<group>"; };
 		ECDDB2C81E8C026300BEEF0F /* EachLevelItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EachLevelItem.swift; sourceTree = "<group>"; };
+		ECDDB2CC1E8C90A000BEEF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Content.storyboard; sourceTree = "<group>"; };
+		ECDDB2CE1E8C90CC00BEEF0F /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		ECDDB2D11E8C937B00BEEF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/example.storyboard; sourceTree = "<group>"; };
+		ECDDB2D31E8C93BD00BEEF0F /* Vocabulary.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Vocabulary.storyboard; sourceTree = "<group>"; };
+		ECDDB2D61E8C940800BEEF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Text.storyboard; sourceTree = "<group>"; };
+		ECDDB2D81E8C943400BEEF0F /* practice.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = practice.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +128,7 @@
 				ECDDB2B21E8BC54700BEEF0F /* Configure */,
 				ECDDB2AF1E8BB83A00BEEF0F /* MainPage */,
 				ECDDB2BA1E8BF81300BEEF0F /* EachLevel */,
+				ECDDB2CA1E8C902C00BEEF0F /* Content */,
 				ECDDB2881E8BA90E00BEEF0F /* Assets.xcassets */,
 				ECDDB28A1E8BA90E00BEEF0F /* LaunchScreen.storyboard */,
 				ECDDB28D1E8BA90E00BEEF0F /* Info.plist */,
@@ -176,6 +189,51 @@
 				ECDDB2C61E8BFE4E00BEEF0F /* EachLevelCell.swift */,
 			);
 			name = EachLevel;
+			sourceTree = "<group>";
+		};
+		ECDDB2CA1E8C902C00BEEF0F /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDB2CB1E8C90A000BEEF0F /* Content.storyboard */,
+				ECDDB2DA1E8C950200BEEF0F /* example */,
+				ECDDB2DB1E8C953400BEEF0F /* practice */,
+				ECDDB2DC1E8C954100BEEF0F /* text */,
+				ECDDB2DD1E8C954A00BEEF0F /* vocabulary */,
+				ECDDB2CE1E8C90CC00BEEF0F /* ContentViewController.swift */,
+			);
+			name = Content;
+			sourceTree = "<group>";
+		};
+		ECDDB2DA1E8C950200BEEF0F /* example */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDB2D01E8C937B00BEEF0F /* example.storyboard */,
+			);
+			name = example;
+			sourceTree = "<group>";
+		};
+		ECDDB2DB1E8C953400BEEF0F /* practice */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDB2D81E8C943400BEEF0F /* practice.storyboard */,
+			);
+			name = practice;
+			sourceTree = "<group>";
+		};
+		ECDDB2DC1E8C954100BEEF0F /* text */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDB2D51E8C940800BEEF0F /* Text.storyboard */,
+			);
+			name = text;
+			sourceTree = "<group>";
+		};
+		ECDDB2DD1E8C954A00BEEF0F /* vocabulary */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDB2D31E8C93BD00BEEF0F /* Vocabulary.storyboard */,
+			);
+			name = vocabulary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +349,12 @@
 				ECDDB2C51E8BFCCF00BEEF0F /* EachLevel.storyboard in Resources */,
 				ECDDB28C1E8BA90E00BEEF0F /* LaunchScreen.storyboard in Resources */,
 				ECDDB2891E8BA90E00BEEF0F /* Assets.xcassets in Resources */,
+				ECDDB2D71E8C940800BEEF0F /* Text.storyboard in Resources */,
 				ECDDB2871E8BA90E00BEEF0F /* Main.storyboard in Resources */,
+				ECDDB2D91E8C943400BEEF0F /* practice.storyboard in Resources */,
+				ECDDB2CD1E8C90A000BEEF0F /* Content.storyboard in Resources */,
+				ECDDB2D41E8C93BD00BEEF0F /* Vocabulary.storyboard in Resources */,
+				ECDDB2D21E8C937B00BEEF0F /* example.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +383,7 @@
 				ECDDB2841E8BA90E00BEEF0F /* MainViewController.swift in Sources */,
 				ECDDB2BC1E8BF88300BEEF0F /* EachLevelViewController.swift in Sources */,
 				ECDDB2C71E8BFE4E00BEEF0F /* EachLevelCell.swift in Sources */,
+				ECDDB2CF1E8C90CC00BEEF0F /* ContentViewController.swift in Sources */,
 				ECDDB2B71E8BF2F200BEEF0F /* UIColor+JP.swift in Sources */,
 				ECDDB2821E8BA90E00BEEF0F /* AppDelegate.swift in Sources */,
 				ECDDB2C91E8C026300BEEF0F /* EachLevelItem.swift in Sources */,
@@ -381,6 +445,30 @@
 				ECDDB2C41E8BFCCF00BEEF0F /* Base */,
 			);
 			name = EachLevel.storyboard;
+			sourceTree = "<group>";
+		};
+		ECDDB2CB1E8C90A000BEEF0F /* Content.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDDB2CC1E8C90A000BEEF0F /* Base */,
+			);
+			name = Content.storyboard;
+			sourceTree = "<group>";
+		};
+		ECDDB2D01E8C937B00BEEF0F /* example.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDDB2D11E8C937B00BEEF0F /* Base */,
+			);
+			name = example.storyboard;
+			sourceTree = "<group>";
+		};
+		ECDDB2D51E8C940800BEEF0F /* Text.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDDB2D61E8C940800BEEF0F /* Base */,
+			);
+			name = Text.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
