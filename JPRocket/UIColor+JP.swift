@@ -9,12 +9,16 @@
 import UIKit
 
 extension UIColor {
-    class func jpTintColor() -> UIColor {
+    class func jpBarTintColor() -> UIColor {
         return UIColor(red: 44/255.0, green: 137/255.0, blue: 77/255.0, alpha: 1.0)
     }
     
     class func jpNavTitleColor() -> UIColor {
-        return UIColor.white;
+        return UIColor.white
+    }
+    
+    class func jpTintColor() -> UIColor {
+        return  UIColor.white
     }
     
 }

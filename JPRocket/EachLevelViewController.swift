@@ -15,6 +15,7 @@ class EachLevelViewController:UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "第二级别"
         addSource();
     }
     

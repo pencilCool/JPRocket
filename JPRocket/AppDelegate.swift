@@ -17,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         let appearance =  UINavigationBar.appearance()
-        appearance.barTintColor = UIColor.jpTintColor()
+        appearance.tintColor     =   UIColor.jpTintColor()
+        appearance.barTintColor  =   UIColor.jpBarTintColor()
         appearance.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.jpNavTitleColor()];
         return true
     }
